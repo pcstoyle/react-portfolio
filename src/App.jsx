@@ -5,6 +5,7 @@ import './App.css'
 
 import Navbar from './components/Navbar';
 import Header from './components/Header';
+import Footer from './components/Footer';
 // import Card from './components/Card';
 
 import About from './pages/About';
@@ -31,15 +32,15 @@ function App() {
   const handlePageChange = (page) => setCurrentPage(page);
 
   return (
-    <>
+    <div className='App'>
      <Header currentPage={ currentPage } 
      handlePageChange={handlePageChange}/>
      <main>
       {renderPage ()}
      </main>
-      
-    </>
+    <Footer />
+    </div>
   )
 }
 
-export default App
+export default App;

@@ -1,5 +1,5 @@
 import Card from "../components/Card";
-import demo from "../assets/01-html-css-git-homework-demo.png"
+import demo from "../images/01-html-css-git-homework-demo.png"
 
 function Portfolio() {
     const projects = [
