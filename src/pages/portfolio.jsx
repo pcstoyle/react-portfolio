@@ -1,61 +1,63 @@
 import Card from "../components/Card";
 import demo from "../images/01-html-css-git-homework-demo.png"
+// import { CodeIcon } from "@heroicons/react/solid";
+
 
 function Portfolio() {
     const projects = [
         {
             id: 1,
-            title: 'Project 1',
-            imgsrc: demo,
-            desc: '',
+            title: 'Book search engine',
+            imgsrc: '',
+            desc: 'MERN Stack Refactor',
             webLink: '',
-            gitLink: '',
+            gitLink: 'https://github.com/pcstoyle/book-search-engine.git',
         },
         {
             id: 2,
-            title: 'Project 2',
+            title: 'PawPrint',
             imgsrc: '',
-            desc: '',
+            desc: 'Employee facing boarding kennel management system',
             webLink: '',
-            gitLink: '',
+            gitLink: 'https://github.com/pcstoyle/paw-print.git',
         },
         {
             id: 3,
-            title: 'Project 3',
+            title: 'Social Network API',
             imgsrc: '',
-            desc: '',
+            desc: 'NoSql - MongoDB',
             webLink: '',
-            gitLink: '',
+            gitLink: 'https://github.com/pcstoyle/social-network-api.git',
         },
         {
             id: 4,
-            title: 'Project 4',
+            title: 'Employee Tracker',
             imgsrc: '',
-            desc: '',
+            desc: 'MySQL',
             webLink: '',
-            gitLink: '',
+            gitLink: 'https://github.com/pcstoyle/employee-tracker.git',
         },
         {
             id: 5,
-            title: 'Project 5',
+            title: 'Readme Generator',
             imgsrc: '',
-            desc: '',
+            desc: 'Node.js',
             webLink: '',
-            gitLink: '',
+            gitLink: 'https://github.com/pcstoyle/readme-generator.git',
         },
         {
             id: 6,
-            title: 'Project 6',
+            title: 'Personal Portfolio',
             imgsrc: '',
-            desc: '',
+            desc: 'Portfolio built with React',
             webLink: '',
-            gitLink: '',
+            gitLink: 'https://github.com/pcstoyle/react-portfolio.git',
         },
     ]
     return (
       <section>
           <h2> Portfolio </h2>
-          <div>
+          <div className="flex relative">
             { projects.map (({id, title, imgsrc}) => (
                 <Card key={id} title={title} imgsrc={imgsrc}/>
             ) )}
