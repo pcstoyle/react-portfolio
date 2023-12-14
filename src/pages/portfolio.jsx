@@ -3,7 +3,6 @@ import { useState } from "react";
 import demo from "../images/01-html-css-git-homework-demo.png"
 import Carousel from "react-bootstrap/Carousel"
 import Button from "react-bootstrap/Button"
-// import '../index.css';
 import '../styles/portfolio.css';
 import portfolio from "../images/portfoliopage.png"
 // import nosql from "../images/backend-runthrough.mp4"

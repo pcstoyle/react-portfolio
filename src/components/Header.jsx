@@ -1,5 +1,4 @@
-// Here we are importing a CSS file as a dependency
-import '../styles/Header.css';
+
 import Navbar from './Navbar';
 
 function Header( {currentPage, handlePageChange } ) {

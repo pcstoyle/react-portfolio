@@ -110,3 +110,23 @@ ul {
   display: flex;   
   justify-content: space-around;
 }
+
+ul {
+  list-style-type: none;
+  display: flex;   
+  justify-content: space-around;
+}
+
+.header {
+  background: #E5989B;
+  height: 100px;
+  width: 100vw;
+}
+
+.header h1 {
+  margin: 0;
+  /* padding-top: 75px; */
+  text-align: center;
+  color: #6D6875;
+  font-size: 3rem;
+}

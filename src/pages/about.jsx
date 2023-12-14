@@ -1,5 +1,5 @@
 import self from '../images/Self.jpeg'
-// import '../styles/About.css';
+
 
 function About() {
   return (
