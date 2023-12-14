@@ -92,3 +92,21 @@ img {
   margin: 50px;
   padding: 25 px;
 }
+
+.footer {
+  margin-top: auto;
+  background: #E5989B;
+  color: #6D6875;
+  height: 50px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;   
+  justify-content: space-around;
+}

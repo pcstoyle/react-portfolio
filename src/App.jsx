@@ -4,7 +4,6 @@ import viteLogo from '/vite.svg'
 import './index.css'
 import './styles/contact.css'
 import './styles/header.css'
-import './styles/footer.css'
 import './styles/navbar.css'
 
 import Navbar from './components/Navbar';
