@@ -1,4 +1,5 @@
 import React from "react";
+import "../styles/resume.css";
 
 
 function Resume() {
@@ -8,8 +9,7 @@ function Resume() {
           <p> Download Resume</p>
 
           <h3>Skills</h3>
-          <ul>
-              <li>HTML</li>
+          <ul >
               <li>CSS</li>
               <li>JavaScript</li>
               <li>Node.js</li>

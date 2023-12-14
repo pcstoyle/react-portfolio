@@ -20,16 +20,3 @@ textarea {
     border-radius: 5px;
     background-color: #FFCDB2;
 }
-
-button {
-  margin-top: 5px;
-  padding: 2px;
-  background-color: #FFCDB2;
-  color: #6D6875(105, 7, 166);
-  border: solid #E5989B(105, 7, 166);
-}
-/* button:hover {
-  background-color: rgb(105, 7, 166);
-  color: pink;
-  border: solid pink;
-} */ 
