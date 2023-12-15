@@ -10,7 +10,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 // import Card from './components/Card';
 
-import About from './pages/About';
+import About from './pages/about';
 import Contact from './pages/contact';
 import Portfolio from './pages/portfolio';
 import Resume from './pages/resume';
